@@ -1,0 +1,36 @@
+.SelectBox {
+  width: 100%;
+border: 1px solid grey;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: black;
+}
+.SelectBox input {
+width: 100%;
+border:none;
+font-family:  Arial, Helvetica, sans-serif;
+font-size: 14px;
+padding: 5px 5px;
+box-sizing: border-box;
+outline-color: blue;
+}
+
+.SelectBox ul {
+list-style-type: none;
+text-align: left; 
+margin: 0;
+padding: 0;
+border-top: 1px solid grey;
+} 
+
+.SelectBox ul:: before {
+ content: '';
+}
+.SelectBox li {
+padding: 5px 5px;
+cursor: pointer;
+}
+
+.SelectBox li:hover {
+ background-color: #42c2f5; 
+}
